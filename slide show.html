@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Working Image Slideshow</title>
+  <link rel="stylesheet" href="ss.css" >
+</head>
+<body>
+
+  <div class="slideshow-container">
+    <button class="nav left" id="prev">&#10094;</button>
+
+    <div class="slide-track" id="slideTrack">
+        <!-- Clone of the last slide -->
+        <div class="slide"><img src="carasol3.jpg" /></div>
+      
+        <!-- Real slides -->
+        <div class="slide"><img src="carasol1.jpg" /></div>
+        <div class="slide"><img src="carasol2.jpg" /></div>
+        <div class="slide"><img src="carasol3.jpg" /></div>
+      
+        <!-- Clone of the first slide -->
+        <div class="slide"><img src="carasol1.jpg" /></div>
+      </div>
+      
+
+    <button class="nav right" id="next">&#10095;</button>
+  </div>
+
+  <script src="ss.js"></script>
+</body>
+</html>
